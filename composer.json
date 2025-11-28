@@ -1,0 +1,23 @@
+{
+  "name": "your-vendor/laravel-perf-audit",
+  "description": "Continuously detect Laravel DB performance problems and propose PR-ready index migrations + CI checks.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PerfAudit\\\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PerfAudit\\PerfAuditServiceProvider"
+      ]
+    }
+  },
+  "version": "0.2.0"
+}

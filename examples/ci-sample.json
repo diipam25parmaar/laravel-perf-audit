@@ -1,0 +1,8 @@
+{
+  "timestamp": 0,
+  "sql": "select * from users where email = ? limit 1",
+  "bindings": [
+    "test@example.com"
+  ],
+  "time_ms": 42
+}
